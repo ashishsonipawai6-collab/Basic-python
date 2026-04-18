@@ -1,0 +1,35 @@
+while True:
+    print("\n1 - Add")
+    print("2 - Subtract")
+    print("3 - Multiply")
+    print("4 - Divide")
+    print("5 - Exit")
+    option = int(input("choose an option : "))
+    result = 0
+    if option == 5:
+     print("program closed ")
+     break
+
+    if(option in [1,2,3,4]):
+      num1 = int(input("enter first number :"))
+      num2 = int(input("enter second number :"))
+      if(option == 1):
+       result = num1 + num2
+      elif(option == 2):
+       result = num1 - num2
+      elif(option == 3):
+       result = num1 * num2
+      elif(option == 4):
+       if num2 != 0:
+            result = num1 // num2
+       else:
+         print("cannot divide by zero")
+         continue
+         print("THE RESULT IS :", result)
+
+    else:
+       print("invalid option entered")
+
+
+
+     
