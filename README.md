@@ -18,3 +18,23 @@ Learning Python step by step.
 
 ---
 
+
+---
+
+## 🧮 Calculator Feature (New Update)
+
+This project now includes a Python-based calculator with the following features:
+
+### 🚀 Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Continuous loop execution
+- Exit option
+
+### ▶️ How to Run
+Make sure Python is installed, then run:
+
+```bash
+python Calculator.py
